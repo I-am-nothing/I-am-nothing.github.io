@@ -1,8 +1,7 @@
 {
-  "name": "vuepress-theme-reco-demo",
+  "name": "my-personal-website",
   "version": "2.0.0",
   "description": "Demo for vuepress-theme-reco@2.x.",
-  "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
   "author": "reco_luan <recoluan@outlook.com>",
   "license": "MIT",
   "scripts": {
