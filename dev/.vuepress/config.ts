@@ -5,7 +5,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: 'I-am-nothing',
   description: 'Just playing around',
   theme: 'reco',
-  base:'/My_Personal_Website/',
+  base:'/I-am-nothing.github.io/',
   themeConfig: {
     style: '@vuepress-reco/style-default',
     logo: '/hero.png',
