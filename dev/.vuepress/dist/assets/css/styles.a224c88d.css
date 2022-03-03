@@ -34,7 +34,7 @@
   padding: 0 0.5rem 0 2rem;
   outline: none;
   transition: all ease 0.3s;
-  background: var(--search-bg-color) url(/My_Personal_Website/assets/img/search.b017a09f.svg) 0.6rem 0.5rem no-repeat;
+  background: var(--search-bg-color) url(/assets/img/search.b017a09f.svg) 0.6rem 0.5rem no-repeat;
   background-size: 1rem;
 }
 
@@ -3490,8 +3490,8 @@ li svg {
   width: 2rem;
   height: 1.2rem;
   background-color: var(--back-to-top-color);
-  -webkit-mask: url(/My_Personal_Website/assets/img/back-to-top.8b37f773.svg) no-repeat;
-          mask: url(/My_Personal_Website/assets/img/back-to-top.8b37f773.svg) no-repeat;
+  -webkit-mask: url(/assets/img/back-to-top.8b37f773.svg) no-repeat;
+          mask: url(/assets/img/back-to-top.8b37f773.svg) no-repeat;
   z-index: var(--back-to-top-z-index);
 }
 
