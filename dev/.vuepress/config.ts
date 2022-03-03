@@ -2,13 +2,14 @@ import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
-  title: 'vuepress-theme-reco',
+  title: 'I-am-nothing',
   description: 'Just playing around',
   theme: 'reco',
+  base:'/My_Personal_Website/',
   themeConfig: {
     style: '@vuepress-reco/style-default',
     logo: '/logo.png',
-    author: 'reco_luan',
+    author: 'I-am-nothing',
     docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
     docsBranch: 'main',
     docsDir: 'example',
