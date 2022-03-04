@@ -1,6 +1,7 @@
 module.exports = {
   "title": "I-am-nothing",
   "description": "I believe I can fly ~ I believe I can touch the sky ~~~",
+  "base": "/",
   "head": [
     [
       "link",
