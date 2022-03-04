@@ -1,17 +1,16 @@
 {
-  "name": "vuepress-theme-reco-demo",
-  "version": "2.0.0",
-  "description": "Demo for vuepress-theme-reco@2.x.",
-  "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
-  "author": "reco_luan <recoluan@outlook.com>",
+  "name": "i-am-nothing.github.io",
+  "version": "1.0.0",
+  "description": "Nothing's blog",
+  "repository": "git@github.com:I-am-nothing/I-am-nothing.github.io.git",
+  "author": "I-am-nothing",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev .",
-    "start": "vuepress dev .",
+    "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "vuepress build ."
   },
-  "dependencies": {
-    "vuepress": "2.0.0-beta.33",
-    "vuepress-theme-reco": "2.0.0-beta.1"
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.10"
   }
 }
