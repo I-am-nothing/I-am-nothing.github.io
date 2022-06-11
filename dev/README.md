@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /hero.jpeg
 heroImageStyle: {
   maxHeight: '200px',
   display: block,
@@ -12,3 +12,9 @@ bgImageStyle: {
   height: '500px'
 }
 ---
+
+# I-am-nothing
+
+Everything is like a boolean, which is between existing and non-existing.
+
+If I could win the competition, I would be happier a lot.
