@@ -3,7 +3,7 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'I-am-nothing',
-      description: 'I believe I can touch the sky ~~~'
+      description: 'I believe I can touch the sky ~~~',
     },
     '/zh-TW/': {
       lang: 'zh-TW',
@@ -48,12 +48,27 @@ module.exports = {
             text: 'TimeLine',
             link: '/timeline/',
             icon: 'reco-date'
+          },{
+            text: 'Tags',
+            link: '/tag/',
+            icon: 'reco-tag'
+          }, {
+            text: 'Categories',
+            icon: 'reco-category',
+            items: [{
+              text: 'category1',
+              link: '/categories/category1/',
+            }, {
+              text: 'category2',
+              link: '/categories/category2/',
+            }
+          ]
           }, {
             text: 'Docs',
             icon: 'reco-message',
             items: [{
-              text: "Nothing's resume",
-              link: '/docs/theme-reco/'
+              text: "About Nothing",
+              link: '/docs/about-nothing/'
             }]
           }, {
             text: 'Contact',
@@ -68,29 +83,44 @@ module.exports = {
                 icon: 'reco-linkedin'
               }, {
                 text: 'Email',
-                link: 'mailto:jdps99119@gmail.com',
+                link: 'mailto:nothingchang1118@gmail.com',
                 icon: 'reco-mail'
               }
             ]
           }
         ],
         sidebar: {
-          '/docs/theme-reco/': [
-            '',
-            'theme',
-            'plugin',
-            'api'
+          '/docs/about-nothing/': [
+            '', {
+              title: 'Autobiography',
+              path: 'autobiography'
+            }, {
+              title: 'Side Project',
+              path: 'side-project'
+            }, {
+              title: 'Competition',
+              path: 'competition'
+            }, {
+              title: 'Club Participation',
+              path: 'club-participation'
+            }, {
+              title: 'Certification',
+              path: 'certification'
+            }, {
+              title: 'Study',
+              path: 'study'
+            }
           ]
         },
       },
       '/zh-TW/': {
         selectText: '語言',
         label: '中文-繁體',
-        editLinkText: '在Github編輯此頁', 
+        editLinkText: '在 Github 上編輯此頁', 
         serviceWorker: {
           updatePopup: {
-            message: "有新內容",
-            buttonText: "更新"
+            message: "發現新內容",
+            buttonText: "刷新"
           }
         },
         algolia: {},
@@ -102,12 +132,27 @@ module.exports = {
             text: '時間軸',
             link: '/timeline/',
             icon: 'reco-date'
+          },{
+            text: '標籤',
+            link: '/tag/',
+            icon: 'reco-tag'
           }, {
-            text: '文件',
+            text: '類別',
+            icon: 'reco-category',
+            items: [{
+              text: '類別1',
+              link: '/categories/category1/',
+            }, {
+              text: '類別2',
+              link: '/categories/category2/',
+            }
+          ]
+          }, {
+            text: '文檔',
             icon: 'reco-message',
             items: [{
-              text: "Nothing's 履歷",
-              link: '/docs/theme-reco/'
+              text: "關於 Nothing",
+              link: '/zh-TW/docs/about-nothing/'
             }]
           }, {
             text: '聯絡方式',
@@ -122,35 +167,49 @@ module.exports = {
                 icon: 'reco-linkedin'
               }, {
                 text: '電子郵件',
-                link: 'mailto:jdps99119@gmail.com',
+                link: 'mailto:nothingchang1118@gmail.com',
                 icon: 'reco-mail'
               }
             ]
           }
         ],
         sidebar: {
-          '/docs/theme-reco/': [
-            '',
-            'theme',
-            'plugin',
-            'api'
+          '/zh-TW/docs/about-nothing/': [
+            {
+              title: '關於 Nothing',
+              path: '/zh-TW/docs/about-nothing/'
+            }, {
+              title: '自傳',
+              path: 'autobiography'
+            }, {
+              title: '作品集',
+              path: 'side-project'
+            }, {
+              title: '競賽',
+              path: 'competition'
+            }, {
+              title: '社團',
+              path: 'club-participation'
+            }, {
+              title: '證照',
+              path: 'certification'
+            }, {
+              title: '研習',
+              path: 'study'
+            }
           ]
         },
       },
     },
     type: 'blog',
     blogConfig: {
-      locales: {
-        '/': {
-          'category': {
-            location: 2,
-            text: 'Category'
-          },
-          'tag': {
-            location: 3,
-            text: "Tag"
-          }
-        }
+      'category': {
+        location: 2,
+        text: 'Category'
+      },
+      'tag': {
+        location: 3,
+        text: "Tag"
       }
     },
     friendLink: [{
@@ -172,9 +231,10 @@ module.exports = {
     author: 'I-am-nothing',
     authorAvatar: '/hero2.jpeg',
     record: null,
-    startYear: '2022'
+    startYear: '2022',
+    noFoundPageByTencent: false,
   },
-  "markdown": {
-    "lineNumbers": true
+  markdown: {
+    lineNumbers: true
   }
 }
