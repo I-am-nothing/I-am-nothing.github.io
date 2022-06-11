@@ -126,25 +126,25 @@ module.exports = {
         algolia: {},
         nav: [{
             text: '首頁',
-            link: '/',
+            link: '/zh-TW/',
             icon: 'reco-home'
           }, {
             text: '時間軸',
-            link: '/timeline/',
+            link: '/zh-TW/timeline/',
             icon: 'reco-date'
           },{
             text: '標籤',
-            link: '/tag/',
+            link: '/zh-TW/tag/',
             icon: 'reco-tag'
           }, {
             text: '類別',
             icon: 'reco-category',
             items: [{
               text: '類別1',
-              link: '/categories/category1/',
+              link: 'zh-TW//categories/category1/',
             }, {
               text: '類別2',
-              link: '/categories/category2/',
+              link: 'zh-TW//categories/category2/',
             }
           ]
           }, {
@@ -203,6 +203,10 @@ module.exports = {
     },
     type: 'blog',
     blogConfig: {
+      'timeline': {
+        location: 4,
+        text: 'TimeLine'
+      },
       'category': {
         location: 2,
         text: 'Category'
