@@ -254,6 +254,11 @@ module.exports = {
         title: 'Docat0209',
         desc: "Docat0219's personal website",
         link: 'https://docat0209.github.io/'
+      }, {
+        logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmKE_FCpSYHZJz0k_k1FwFI-GHXWaJTXymQ&usqp=CAU',
+        title: 'Rick Roll',
+        desc: "Never gonna give you up",
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
       }
     ],
     logo: '/hero.jpeg',
