@@ -245,6 +245,11 @@ module.exports = {
         desc: "URLoser404's personal website",
         link: 'https://urloser404.github.io/'
       }, {
+        logo: 'https://mr6915tri8513.github.io/avatar.png',
+        title: 'Mr6915tri8513',
+        desc: "Mr6915tri8513's personal website",
+        link: 'https://mr6915tri8513.github.io/'
+      }, {
         logo: 'https://docat0209.github.io/page.png',
         title: 'Docat0209',
         desc: "Docat0219's personal website",
