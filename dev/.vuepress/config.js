@@ -33,6 +33,7 @@ module.exports = {
         selectText: 'Languages',
         label: 'English',
         editLinkText: 'Edit this page on GitHub', 
+        lastUpdated: 'Last Updated Time',
         serviceWorker: {
           updatePopup: {
             message: "New content is available.",
@@ -101,11 +102,14 @@ module.exports = {
               title: 'Nothing',
               path: 'about-nothing/'
             }, {
-              title: 'Autobiography',
-              path: 'about-nothing/autobiography'
+              title: 'Work Experience',
+              path: 'about-nothing/work-experience'
             }, {
               title: 'Side Project',
               path: 'about-nothing/side-project'
+            }, {
+              title: 'Autobiography',
+              path: 'about-nothing/autobiography'
             }, {
               title: 'Competition',
               path: 'about-nothing/competition'
@@ -126,6 +130,7 @@ module.exports = {
         selectText: 'Language',
         label: '中文-繁體',
         editLinkText: '在 Github 上編輯此頁', 
+        lastUpdated: '最後更新時間',
         serviceWorker: {
           updatePopup: {
             message: "發現新內容",
@@ -150,10 +155,10 @@ module.exports = {
             icon: 'reco-category',
             items: [{
               text: '類別1',
-              link: 'zh-TW//categories/category1/',
+              link: '/zh-TW/categories/category1/',
             }, {
               text: '類別2',
-              link: 'zh-TW//categories/category2/',
+              link: '/zh-TW/categories/category2/',
             }
           ]
           }, {
@@ -194,11 +199,14 @@ module.exports = {
               title: 'Nothing',
               path: 'about-nothing/'
             }, {
-              title: '自傳',
-              path: 'about-nothing/autobiography'
+              title: '工作經驗',
+              path: 'about-nothing/work-experience'
             }, {
               title: '作品集',
               path: 'about-nothing/side-project'
+            }, {
+              title: '自傳',
+              path: 'about-nothing/autobiography'
             }, {
               title: '競賽',
               path: 'about-nothing/competition'
@@ -246,7 +254,6 @@ module.exports = {
     logo: '/hero.jpeg',
     search: true,
     searchMaxSuggestions: 10,
-    lastUpdated: '03/04 2022',
     author: 'I-am-nothing',
     authorAvatar: '/hero2.jpeg',
     record: null,
