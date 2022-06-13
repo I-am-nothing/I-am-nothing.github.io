@@ -96,9 +96,11 @@ module.exports = {
         sidebar: {
           '/docs/': [{
             title: 'About Nothing',
-            path: '/docs/about-nothing/',
-            collapsable: false,
+            collapsable: true,
             children: [{
+              title: 'Nothing',
+              path: 'about-nothing/'
+            }, {
               title: 'Autobiography',
               path: 'about-nothing/autobiography'
             }, {
@@ -187,8 +189,11 @@ module.exports = {
           '/zh-TW/docs/': [{
             title: '關於 Nothing',
             path: '/zh-TW/docs/about-nothing/',
-            collapsable: false,
+            collapsable: true,
             children: [{
+              title: 'Nothing',
+              path: 'about-nothing/'
+            }, {
               title: '自傳',
               path: 'about-nothing/autobiography'
             }, {
