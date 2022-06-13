@@ -32,7 +32,7 @@ language: 'en-US'
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;心肺復甦術<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;APCS 觀念四級 實作三級
 
-> Study:&emsp;資安深耕研習營 - Advanced Happy Hacking day<br/>
+> Workshop:&emsp;資安深耕研習營 - Advanced Happy Hacking day<br/>
 &emsp;&emsp;&emsp;&emsp;Fab Lab 自造實驗室 -「鍊」三生三「飾」
 
 > Special Experience:&emsp;2019寫信馬拉松行動證書

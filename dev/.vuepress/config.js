@@ -120,8 +120,8 @@ module.exports = {
               title: 'Certification',
               path: 'about-nothing/certification'
             }, {
-              title: 'Study',
-              path: 'about-nothing/study'
+              title: 'WorkShop Experience',
+              path: 'about-nothing/workshop'
             }]
           }]
         },
@@ -218,7 +218,7 @@ module.exports = {
               path: 'about-nothing/certification'
             }, {
               title: '研習',
-              path: 'about-nothing/study'
+              path: 'about-nothing/workshop'
             }]
           }]
         },
@@ -257,7 +257,7 @@ module.exports = {
       }, {
         logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmKE_FCpSYHZJz0k_k1FwFI-GHXWaJTXymQ&usqp=CAU',
         title: 'Rick Roll',
-        desc: "Never gonna give you up",
+        desc: "Never gonna give you up ~~~",
         link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
       }
     ],
