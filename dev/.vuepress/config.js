@@ -3,15 +3,16 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'I-am-nothing',
-      description: 'I believe I can touch the sky ~~~',
+      description: "I believe I can't touch the sky ~~~",
     },
     '/zh-TW/': {
       lang: 'zh-TW',
       title: 'I-am-nothing',
-      description: 'I believe I can touch the sky ~~~'
+      description: '我相信我碰不到天空～～～'
     }
   },
   base: '/',
+  dest: '../docs',
   head: [[
       'link', {
         rel: 'icon',
@@ -69,6 +70,9 @@ module.exports = {
             items: [{
               text: "About Nothing",
               link: '/docs/about-nothing/'
+            }, {
+              text: "History Of Love",
+              link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
             }]
           }, {
             text: 'Contact',
@@ -90,31 +94,34 @@ module.exports = {
           }
         ],
         sidebar: {
-          '/docs/about-nothing/': [
-            '', {
+          '/docs/': [{
+            title: 'About Nothing',
+            path: '/docs/about-nothing/',
+            collapsable: false,
+            children: [{
               title: 'Autobiography',
-              path: 'autobiography'
+              path: 'about-nothing/autobiography'
             }, {
               title: 'Side Project',
-              path: 'side-project'
+              path: 'about-nothing/side-project'
             }, {
               title: 'Competition',
-              path: 'competition'
+              path: 'about-nothing/competition'
             }, {
               title: 'Club Participation',
-              path: 'club-participation'
+              path: 'about-nothing/club-participation'
             }, {
               title: 'Certification',
-              path: 'certification'
+              path: 'about-nothing/certification'
             }, {
               title: 'Study',
-              path: 'study'
-            }
-          ]
+              path: 'about-nothing/study'
+            }]
+          }]
         },
       },
       '/zh-TW/': {
-        selectText: '語言',
+        selectText: 'Language',
         label: '中文-繁體',
         editLinkText: '在 Github 上編輯此頁', 
         serviceWorker: {
@@ -153,6 +160,9 @@ module.exports = {
             items: [{
               text: "關於 Nothing",
               link: '/zh-TW/docs/about-nothing/'
+            }, {
+              text: "情史",
+              link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
             }]
           }, {
             text: '聯絡方式',
@@ -174,30 +184,30 @@ module.exports = {
           }
         ],
         sidebar: {
-          '/zh-TW/docs/about-nothing/': [
-            {
-              title: '關於 Nothing',
-              path: '/zh-TW/docs/about-nothing/'
-            }, {
+          '/zh-TW/docs/': [{
+            title: '關於 Nothing',
+            path: '/zh-TW/docs/about-nothing/',
+            collapsable: false,
+            children: [{
               title: '自傳',
-              path: 'autobiography'
+              path: 'about-nothing/autobiography'
             }, {
               title: '作品集',
-              path: 'side-project'
+              path: 'about-nothing/side-project'
             }, {
               title: '競賽',
-              path: 'competition'
+              path: 'about-nothing/competition'
             }, {
               title: '社團',
-              path: 'club-participation'
+              path: 'about-nothing/club-participation'
             }, {
               title: '證照',
-              path: 'certification'
+              path: 'about-nothing/certification'
             }, {
               title: '研習',
-              path: 'study'
-            }
-          ]
+              path: 'about-nothing/study'
+            }]
+          }]
         },
       },
     },
@@ -217,14 +227,14 @@ module.exports = {
       }
     },
     friendLink: [{
+        logo: 'https://urloser404.github.io/hero.jpg',
         title: 'URLoser404',
         desc: "URLoser404's personal website",
-        email: 'b0925138932@gmail.com',
         link: 'https://urloser404.github.io/'
       }, {
+        logo: 'https://docat0209.github.io/page.png',
         title: 'Docat0209',
         desc: "Docat0219's personal website",
-        email: 'shane930209@gmail.com/',
         link: 'https://docat0209.github.io/'
       }
     ],
@@ -237,6 +247,9 @@ module.exports = {
     record: null,
     startYear: '2022',
     noFoundPageByTencent: false,
+    subSidebar: 'auto',
+    sidebarDepth: 1,
+    displayAllHeaders: false,
   },
   markdown: {
     lineNumbers: true
