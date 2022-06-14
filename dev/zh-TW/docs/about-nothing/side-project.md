@@ -29,7 +29,7 @@ Flutter/Google-Ads<br/>
 ### [Flutter_notes](https://github.com/I-am-nothing/Flutter_notes)<font size="2">&nbsp;May 2022 - Jun 2022</font><br/>
 Flutter/Firebase<br/>
 * &nbsp;&nbsp;這是自我學習的紀錄，從0到1過程
-### [Twitch_Car](https://github.com/I-am-nothing/Twitch_Car)<font size="2">&nbsp;Sep 2021 - Feb 2022 [<span style="color:#007bff">&nbsp;.docx</span>](https://docs.google.com/document/d/1PnjpnWs7Fg4Pcy3x5B7tbZW885f4npafvDLK37PCZKE/edit?usp=sharing)[<span style="color:#e69138">.ppt</span>](https://docs.google.com/document/d/1PnjpnWs7Fg4Pcy3x5B7tbZW885f4npafvDLK37PCZKE/edit?usp=sharing)</font><br/>
+### [Twitch_Car](https://github.com/I-am-nothing/Twitch_Car)<font size="2">&nbsp;Sep 2021 - Feb 2022 [<span style="color:#007bff">&nbsp;.docx</span>](https://docs.google.com/document/d/1PnjpnWs7Fg4Pcy3x5B7tbZW885f4npafvDLK37PCZKE/edit?usp=sharing)[<span style="color:#e69138">.ppt</span>](https://www.canva.com/design/DAEywo-Aia0/9Gq34sW1Ute-39wqN0MjnQ/view?utm_content=DAEywo-Aia0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)</font><br/>
 Arduino(ESP-32)/Android(Kotlin)
 * &nbsp;&nbsp;這是參考「虹彩六號：圍攻行動」而製作的無人車<br/>
 * &nbsp;&nbsp;使用socket連線且改進以及優化影像傳輸
