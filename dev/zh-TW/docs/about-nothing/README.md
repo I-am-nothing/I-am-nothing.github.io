@@ -14,7 +14,7 @@ publish: true
 
 > 畢業於：&emsp;<font size="2">資訊科 [臺中市立臺中工業高級中等學校](https://w3.tcivs.tc.edu.tw/)2019 - 2022</font>
 
-> 幹部經驗：&emsp;108年上學期（高二上）班代表<br />
+> 幹部經驗：&emsp;109年上學期（高二上）班代表<br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;109年上學期	（高三上）康樂股長 
 
 > 社團經歷：&emsp;108年上學期（高一上）3D創客社 社員<br />
