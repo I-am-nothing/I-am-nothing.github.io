@@ -12,7 +12,7 @@ publish: true
 
 > Interest:&emsp;Cook, Snooker, Develop APP
 
-> Graguated From:&emsp;<font size="2">Computer Science [Taichung Municipal Taichung Industrial High School](https://w3.tcivs.tc.edu.tw/)2019 - 2022</font>
+> Graguated From:&emsp;<font size="2">Computer Science, [Taichung Municipal Taichung Industrial High School](https://w3.tcivs.tc.edu.tw/)2019 - 2022</font>
 
 > Cadre Experience:&emsp;&nbsp;&nbsp;2020 First Semester (Second Grade First Semester) Class Representative<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2021 First Semester (Third Grade First Semester) Activity Coordinator
@@ -36,8 +36,7 @@ publish: true
 
 > Special Experience:&emsp;2019 Write For Right (AMNESTY INTERNATIONAL)
 
-> Competition Experience:&emsp;&nbsp;&nbsp;The 51st National Skills Competition, Middle Division,<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;IT Software Solutions For Business, Second Grade<br />
+> Competition Experience:&emsp;&nbsp;&nbsp;The 51st National Skills Competition, Middle Division, IT Software Solutions For Business, Second Grade<br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The 51st National Skills Competition, IT Software Solutions For Business, Excellent Work<br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The 51st National Skills Competition, Mobile Applications Development<br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2021 Annual Intramural Side Project Competition, Group Of Electrons, Winning Award<br />

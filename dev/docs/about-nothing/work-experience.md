@@ -6,4 +6,4 @@ tags:
 publish: false
 ---
 
-I don't have work experience yet. ww
+I have nothing work experience yet. ww
