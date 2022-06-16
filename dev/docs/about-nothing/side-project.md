@@ -57,3 +57,7 @@ publish: false
 <span style="color:#888888">Discord/Python</span><br/>
 * &nbsp;&nbsp;Built a discord bot and can manage discord groups.<br/>
 * &nbsp;&nbsp;According to users' activity to give them roles.
+
+<br/>
+
+![](/XDD.png)

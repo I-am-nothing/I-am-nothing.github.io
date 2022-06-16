@@ -57,3 +57,7 @@ publish: false
 <span style="color:#888888">Discord/Python</span><br/>
 * &nbsp;&nbsp;建造Discord機器人管理Discord群組<br/>
 * &nbsp;&nbsp;根據使用者的活躍度決定身份組
+
+<br/>
+
+![](/XDD.png)
