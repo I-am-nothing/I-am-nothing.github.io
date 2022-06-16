@@ -50,7 +50,7 @@ publish: false
 ### [Security_Smart_Home_2nd](https://github.com/I-am-nothing/Security_Smart_Home_2nd)<font size="2">&nbsp;Apr  2021 - Sep 2021 [<span style="color:#007bff">&nbsp;.docx</span>](https://docs.google.com/document/d/1pIwP28cPY0j0kTdAGPogLw7TcMTjWPokIr8tGELqfSE/edit?usp=sharing)</font><br/>
 <span style="color:#888888">Kotlin(Android)/MS_SQL/ASP-NET/Windows-IIS/Arduino(ESP8266)</span><br/>
 * &nbsp;&nbsp;這是一個互聯網專題，我們花了許多間製作.<br/>
-* &nbsp;&nbsp;根據 Security_Smart_Home <font size="2">([<span style="color:#007bff">&nbsp;.docx</span>](https://docs.google.com/document/d/1qhFzi2feWOz2Gax-PqmswtHTDt-eyBC42QOLEBsT-FA/edit?usp=sharing)[<span style="color:#e69138">.ppt</span>](https://docs.google.com/presentation/d/1CLF7nTyfLZ677lPc1mkNgJW-RC2V5mb7DHh6XexCC1A/edit?usp=sharing))</font> 改進以及新增一些功能<br/>
+* &nbsp;&nbsp;根據 [Security_Smart_Home](https://github.com/I-am-nothing/Security_Smart_Home)<font size="2">([<span style="color:#007bff">&nbsp;.docx</span>](https://docs.google.com/document/d/1qhFzi2feWOz2Gax-PqmswtHTDt-eyBC42QOLEBsT-FA/edit?usp=sharing)[<span style="color:#e69138">.ppt</span>](https://docs.google.com/presentation/d/1CLF7nTyfLZ677lPc1mkNgJW-RC2V5mb7DHh6XexCC1A/edit?usp=sharing))</font> 改進以及新增一些功能<br/>
 * &nbsp;&nbsp;新增OTA(空中更新)以及改進UI，視覺化的設定新裝置，提升使用者體驗
 
 ### [Discord30CM](https://github.com/I-am-nothing/Discord30CM)<font size="2">&nbsp;Jul  2020 - Sep 2020</font><br/>
@@ -60,4 +60,4 @@ publish: false
 
 <br/>
 
-![](/XDD.png)
+![](/about-nothing/side-project/01.png)
