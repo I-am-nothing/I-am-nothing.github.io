@@ -103,7 +103,7 @@ module.exports = {
               path: 'about-nothing/'
             }, {
               title: 'Work Experience',
-              path: 'about-nothing/work-experience'
+              path: 'about-nothing/work'
             }, {
               title: 'Side Project',
               path: 'about-nothing/side-project'
@@ -115,13 +115,16 @@ module.exports = {
               path: 'about-nothing/competition'
             }, {
               title: 'Club Participation',
-              path: 'about-nothing/club-participation'
+              path: 'about-nothing/club'
             }, {
               title: 'Certification',
               path: 'about-nothing/certification'
             }, {
               title: 'WorkShop Experience',
               path: 'about-nothing/workshop'
+            }, {
+              title: 'Special Experience',
+              path: 'about-nothing/special'
             }]
           }]
         },
@@ -200,7 +203,7 @@ module.exports = {
               path: 'about-nothing/'
             }, {
               title: '工作經驗',
-              path: 'about-nothing/work-experience'
+              path: 'about-nothing/work'
             }, {
               title: '作品集',
               path: 'about-nothing/side-project'
@@ -208,17 +211,20 @@ module.exports = {
               title: '自傳',
               path: 'about-nothing/autobiography'
             }, {
-              title: '競賽',
+              title: '競賽經歷',
               path: 'about-nothing/competition'
             }, {
-              title: '社團',
-              path: 'about-nothing/club-participation'
+              title: '社團參與',
+              path: 'about-nothing/club'
             }, {
-              title: '證照',
+              title: '檢定證照',
               path: 'about-nothing/certification'
             }, {
-              title: '研習',
+              title: '研習經驗',
               path: 'about-nothing/workshop'
+            }, {
+              title: '特殊經歷',
+              path: 'about-nothing/special'
             }]
           }]
         },

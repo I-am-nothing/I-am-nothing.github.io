@@ -1,6 +1,6 @@
 ---
 title: About Nothing
-date: 2022-06-12
+date: 2022-06-08
 tags: 
  - English
 publish: true
@@ -36,7 +36,8 @@ publish: true
 
 > Special Experience:&emsp;2019 Write For Right (AMNESTY INTERNATIONAL)
 
-> Competition Experience:&emsp;&nbsp;&nbsp;The 51st National Skills Competition, Middle Division, IT Software Solutions For Business, Second Grade<br />
+> Competition Experience:&emsp;&nbsp;&nbsp;The 51st National Skills Competition, Middle Division,<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-- IT Software Solutions For Business, Second Grade<br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The 51st National Skills Competition, IT Software Solutions For Business, Excellent Work<br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The 51st National Skills Competition, Mobile Applications Development<br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2021 Annual Intramural Side Project Competition, Group Of Electrons, Winning Award<br />

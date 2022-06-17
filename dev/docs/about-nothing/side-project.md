@@ -1,6 +1,6 @@
 ---
 title: Nothing's Side Project
-date: 2022-06-13
+date: 2022-06-08
 tags: 
  - English
 publish: false
