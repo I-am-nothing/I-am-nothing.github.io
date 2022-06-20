@@ -251,7 +251,7 @@ module.exports = {
         desc: "URLoser404's personal website",
         link: 'https://urloser404.github.io/'
       }, {
-        logo: 'https://mr6915tri8513.github.io/avatar.png',
+        logo: 'https://mr6915tri8513.github.io/home_page/avatar.png',
         title: 'Mr6915tri8513',
         desc: "Mr6915tri8513's personal website",
         link: 'https://mr6915tri8513.github.io/'
@@ -262,7 +262,7 @@ module.exports = {
         link: 'https://docat0209.github.io/'
       }, {
         logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmKE_FCpSYHZJz0k_k1FwFI-GHXWaJTXymQ&usqp=CAU',
-        title: 'Rick Roll',
+        title: 'Rick Astley',
         desc: "Never gonna give you up ~~~",
         link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
       }
