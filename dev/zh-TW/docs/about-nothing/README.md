@@ -6,8 +6,6 @@ tags:
 publish: true
 ---
 
-> 出生日期：&emsp;2003/11/18
-
 > 專長：&emsp;寫程式
 
 > 興趣：&emsp;做菜、撞球、開發APP

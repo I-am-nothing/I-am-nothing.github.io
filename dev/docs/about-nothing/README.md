@@ -6,8 +6,6 @@ tags:
 publish: true
 ---
 
-> Birthday:&emsp;2003/11/18
-
 > Major:&emsp;&emsp;Coding
 
 > Interest:&emsp;Cook, Snooker, Develop APP
