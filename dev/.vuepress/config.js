@@ -130,7 +130,7 @@ module.exports = {
         },
       },
       '/zh-TW/': {
-        selectText: 'Language',
+        selectText: 'Languages',
         label: '中文-繁體',
         editLinkText: '在 Github 上編輯此頁', 
         lastUpdated: '最後更新時間 ',

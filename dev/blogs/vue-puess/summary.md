@@ -5,6 +5,7 @@ categories:
  - vue-press
 tags:
  - English
+sticky: 1
 ---
 
 Summary
