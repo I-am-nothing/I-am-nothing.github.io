@@ -16,7 +16,7 @@ module.exports = {
   head: [[
       'link', {
         rel: 'icon',
-        href: '/hero.jpeg'
+        href: '/hero.png'
       }
     ], [
       'meta', {
@@ -267,11 +267,11 @@ module.exports = {
         link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
       }
     ],
-    logo: '/hero.jpeg',
+    logo: '/hero.png',
     search: true,
     searchMaxSuggestions: 10,
     author: 'I-am-nothing',
-    authorAvatar: '/hero2.jpeg',
+    authorAvatar: '/hero2.png',
     record: null,
     startYear: '2022',
     noFoundPageByTencent: false,
