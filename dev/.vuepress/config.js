@@ -1,4 +1,14 @@
+const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics')
+
 module.exports = {
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-170VJJB3ZL' 
+      }
+    ]
+  ],
   locales: {
     '/': {
       lang: 'en-US',

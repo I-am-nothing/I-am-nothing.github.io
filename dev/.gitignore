@@ -1,3 +1,4 @@
-node_modules/
+node_modules/*
+!node_modules/vuepress-theme-reco/
 yarn.lock
 yarn.error

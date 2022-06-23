@@ -1,8 +1,8 @@
 ---
 title: Nothing's Competition
 date: 2022-06-08
-tags: 
- - English
+categories: 
+ - About-Nothing
 publish: false
 ---
 ## The 51st National Skills Competition, Middle Division,<br/>-- [IT Software Solutions For Business](https://github.com/TcivsCSE/51A-Data)

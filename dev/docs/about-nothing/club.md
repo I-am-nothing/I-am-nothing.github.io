@@ -1,8 +1,8 @@
 ---
 title: Nothing's Club Participation
 date: 2022-06-12
-tags: 
- - English
+categories: 
+ - About-Nothing
 publish: false
 ---
 
