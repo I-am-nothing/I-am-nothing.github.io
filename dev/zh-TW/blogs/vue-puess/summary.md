@@ -1,11 +1,10 @@
 ---
-title: Summary of Vue press
+title: Vue-Press_摘要
 date: 2022-06-21
 categories: 
- - vue-press
-tags:
- - 中文-繁體
+ - Vue-Press部落格
 sticky: 1
+publish: true
 ---
 
 Summary

@@ -1,4 +1,20 @@
 module.exports = {
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          return new Date(timestamp).toLocaleDateString();
+        }
+      }
+    ],
+    [
+      'sitemap',
+      {
+        hostname: 'https://i-am-nothing.github.io/'
+      }
+    ]
+  ],
   locales: {
     '/': {
       lang: 'en-US',
@@ -70,11 +86,14 @@ module.exports = {
             text: 'Categories',
             icon: 'reco-category',
             items: [{
-              text: 'category1',
-              link: '/categories/category1/',
+              text: 'Vue-Press Blog',
+              link: '/categories/Vue-Press%20Blog/',
             }, {
-              text: 'category2',
-              link: '/categories/category2/',
+              text: 'Taiwan-Transportation Tracking App',
+              link: '/categories/Taiwan-Transportation%20Tracking%20App/',
+            }, {
+              text: 'Diary',
+              link: '/categories/Diary/',
             }
           ]
           }, {
@@ -169,11 +188,14 @@ module.exports = {
             text: '類別',
             icon: 'reco-category',
             items: [{
-              text: '類別1',
-              link: '/zh-TW/categories/category1/',
+              text: 'Vue-Press部落格',
+              link: '/zh-TW/categories/Vue-Press%E9%83%A8%E8%90%BD%E6%A0%BC/',
             }, {
-              text: '類別2',
-              link: '/zh-TW/categories/category2/',
+              text: '台灣大眾運輸追蹤APP',
+              link: '/zh-TW/categories/台灣大眾運輸追蹤APP/',
+            }, {
+              text: '日記',
+              link: '/zh-TW/categories/日記/',
             }
           ]
           }, {

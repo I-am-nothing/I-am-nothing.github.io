@@ -1,8 +1,8 @@
 ---
 title: Nothing 的競賽經驗
 date: 2022-06-08
-tags: 
- - 中文-繁體
+categories: 
+ - 關於 Nothing
 publish: false
 ---
 ## 51屆全國技能競賽中區分區技能競賽 [商務軟體設計](https://github.com/TcivsCSE/51A-Data)

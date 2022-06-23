@@ -1,8 +1,8 @@
 ---
-title: Summary of Vue press
+title: Summary of Vue-Press Blog
 date: 2022-06-21
 categories: 
- - Vue-Press
+ - Vue-Press Blog
 sticky: 1
 ---
 
