@@ -1,14 +1,20 @@
-const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics')
-
 module.exports = {
-  plugins: [
+  head: [
     [
-      '@vuepress/google-analytics',
-      {
-        'ga': 'G-170VJJB3ZL' 
-      }
-    ]
-  ],
+        'script',
+        {
+            async: true,
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-170VJJB3ZL',
+        },
+    ],
+    [
+        'script',
+        {},
+        [
+            "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-170VJJB3ZL');",
+        ],
+    ],
+],
   locales: {
     '/': {
       lang: 'en-US',
