@@ -34,13 +34,11 @@ export default defineComponent({
             locales.every((locale) => {
               if(!element.path.startsWith(locale)) {
                 path = '/tag/'
-                console.log('/tag/')
               }
             })
           }
           else if(element.path.startsWith(instance.$localePath)) {
             path = instance.$localePath + 'tag/'
-            console.log(instance.$localePath + 'tag/')
           }
         }
       })

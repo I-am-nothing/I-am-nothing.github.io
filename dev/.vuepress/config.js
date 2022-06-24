@@ -26,7 +26,7 @@ module.exports = {
     '/categories/台灣大眾運輸追蹤APP/': '/categories/Taiwan-Transportation Tracking App/',
     '/zh-TW/tag/Summary/': '/zh-TW/tag/摘要/',
     '/tag/摘要/': '/tag/Summary/'
-  },
+  }, 
   locales: {
     '/': {
       lang: 'en-US',
