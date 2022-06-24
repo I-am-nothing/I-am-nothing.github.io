@@ -15,6 +15,16 @@ module.exports = {
       }
     ]
   ],
+  linkFix: {
+    '/zh-TW/categories/Diary/': '/zh-TW/categories/日記/',
+    '/zh-TW/categories/Vue-Press Blog/': '/zh-TW/categories/Vue-Press部落格/',
+    '/zh-TW/categories/About-Nothing/': '/zh-TW/categories/關於 Nothing/',
+    '/zh-TW/categories/Taiwan-Transportation Tracking App/': '/zh-TW/categories/台灣大眾運輸追蹤APP/',
+    '/categories/日記/': '/categories/Diary/',
+    '/categories/Vue-Press部落格/': '/categories/Vue-Press Blog/',
+    '/categories/關於 Nothing/': '/categories/About-Nothing/',
+    '/categories/台灣大眾運輸追蹤APP/': '/categories/Taiwan-Transportation Tracking App/'
+  },
   locales: {
     '/': {
       lang: 'en-US',
