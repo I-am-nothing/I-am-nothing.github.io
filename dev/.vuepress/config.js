@@ -23,7 +23,9 @@ module.exports = {
     '/categories/日記/': '/categories/Diary/',
     '/categories/Vue-Press部落格/': '/categories/Vue-Press Blog/',
     '/categories/關於 Nothing/': '/categories/About-Nothing/',
-    '/categories/台灣大眾運輸追蹤APP/': '/categories/Taiwan-Transportation Tracking App/'
+    '/categories/台灣大眾運輸追蹤APP/': '/categories/Taiwan-Transportation Tracking App/',
+    '/zh-TW/tag/Summary/': '/zh-TW/tag/摘要/',
+    '/tag/摘要/': '/tag/Summary/'
   },
   locales: {
     '/': {
