@@ -118,23 +118,6 @@ module.exports = {
               text: "History Of Love",
               link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
             }]
-          }, {
-            text: 'Contact',
-            icon: 'reco-message',
-            items: [{
-                text: 'GitHub',
-                link: 'https://github.com/I-am-nothing',
-                icon: 'reco-github'
-              }, {
-                text: 'Linkdin',
-                link: 'https://www.linkedin.com/in/nothing-chang-374147227/',
-                icon: 'reco-linkedin'
-              }, {
-                text: 'Email',
-                link: 'mailto:nothingchang1118@gmail.com',
-                icon: 'reco-mail'
-              }
-            ]
           }
         ],
         sidebar: {
@@ -220,23 +203,6 @@ module.exports = {
               text: "情史",
               link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
             }]
-          }, {
-            text: '聯絡方式',
-            icon: 'reco-message',
-            items: [{
-                text: 'GitHub',
-                link: 'https://github.com/I-am-nothing',
-                icon: 'reco-github'
-              }, {
-                text: 'Linkdin',
-                link: 'https://www.linkedin.com/in/nothing-chang-374147227/',
-                icon: 'reco-linkedin'
-              }, {
-                text: '電子郵件',
-                link: 'mailto:nothingchang1118@gmail.com',
-                icon: 'reco-mail'
-              }
-            ]
           }
         ],
         sidebar: {
@@ -277,19 +243,17 @@ module.exports = {
       },
     },
     type: 'blog',
-    blogConfig: {
-      'timeline': {
-        location: 4,
-        text: 'TimeLine'
-      },
-      'category': {
-        location: 2,
-        text: 'Category'
-      },
-      'tag': {
-        location: 3,
-        text: "Tag"
-      }
+    blogConfig:{
+      socialLinks: [{
+        link: 'https://github.com/I-am-nothing',
+        icon: 'reco-github'
+      }, {
+        link: 'https://www.linkedin.com/in/nothing-chang-374147227/',
+        icon: 'reco-linkedin'
+      }, {
+        link: 'mailto:nothingchang1118@gmail.com',
+        icon: 'reco-mail'
+      }],
     },
     friendLink: [{
         logo: 'https://urloser404.github.io/hero.jpg',
