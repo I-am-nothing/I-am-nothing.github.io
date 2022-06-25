@@ -164,6 +164,13 @@ module.exports = {
             }]
           }]
         },
+        valineConfig: {
+          appId: 'uzXtuH1J23gkPQzsXmFVoJHL-MdYXbMMI',// your appId
+          appKey: '00CVVx4GG0I5sDvs7UvarjE3', // your appKey
+          serverURLs: 'https://uzxtuh1j.api.lncldglobal.com',
+          placeholder: "It's time to show the real technology",
+          avatar: 'wavatar',
+        },
       },
       '/zh-TW/': {
         selectText: 'Languages',
@@ -253,13 +260,16 @@ module.exports = {
             }]
           }]
         },
+        valineConfig: {
+          appId: 'uzXtuH1J23gkPQzsXmFVoJHL-MdYXbMMI',// your appId
+          appKey: '00CVVx4GG0I5sDvs7UvarjE3', // your appKey
+          serverURLs: 'https://uzxtuh1j.api.lncldglobal.com',
+          placeholder: "是時候展示真正的技術了",
+          avatar: 'wavatar',
+        },
       },
     },
     type: 'blog',
-    valineConfig: {
-      appId: 'uzXtuH1J23gkPQzsXmFVoJHL-MdYXbMMI',// your appId
-      appKey: '00CVVx4GG0I5sDvs7UvarjE3', // your appKey
-    },
     blogConfig:{
       socialLinks: [{
         link: 'https://github.com/I-am-nothing',
