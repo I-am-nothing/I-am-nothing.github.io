@@ -256,6 +256,10 @@ module.exports = {
       },
     },
     type: 'blog',
+    valineConfig: {
+      appId: 'uzXtuH1J23gkPQzsXmFVoJHL-MdYXbMMI',// your appId
+      appKey: '00CVVx4GG0I5sDvs7UvarjE3', // your appKey
+    },
     blogConfig:{
       socialLinks: [{
         link: 'https://github.com/I-am-nothing',
