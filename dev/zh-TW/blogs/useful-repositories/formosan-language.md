@@ -3,6 +3,7 @@ title: '輕鬆用原住民語寫程式'
 date: 2022-06-25
 categories: 
  - 實用的“庫”
+author: Splitline
 sticky: 1
 ---
 
