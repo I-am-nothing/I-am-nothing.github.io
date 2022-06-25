@@ -72,7 +72,7 @@ module.exports = {
       }
     ]
   ],
-  theme: 'reco',
+  theme: 'vuepress-theme-reco',
   mode: 'dark',
   themeConfig: {
     locales: {
