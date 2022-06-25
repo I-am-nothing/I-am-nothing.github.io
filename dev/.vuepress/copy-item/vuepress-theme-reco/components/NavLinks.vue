@@ -127,13 +127,17 @@ export default defineComponent({
     })
 
     const userLinks = computed(() => {
-      const XDD = (instance.nav || []).map(link => {
+      let links = (instance.nav || []).map(link => {
         return Object.assign(resolveNavLinkItem(link), {
           items: (link.items || []).map(resolveNavLinkItem)
         })
       })
-      console.log(XDD)
-      return XDD
+      links.forEach(element => {
+        if(element.text === 'Languages'){
+          element.icon = 'reco-language'
+        }
+      })
+      return links
     })
 
     const repoLink = computed(() => {

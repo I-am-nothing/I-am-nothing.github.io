@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build ."
+    "build": "vuepress build .",
+    "fa:build": "node node_modules/vuepress-plugin-font-awesome/index.js"
   },
   "devDependencies": {
     "vuepress": "1.8.2",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.9.7",
+    "vuepress-plugin-font-awesome": "^1.90.6",
     "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

@@ -5,7 +5,6 @@ categories:
  - Vue-Press Blog
 tags:
  - Summary
-sticky: 1
 ---
 
 Summary

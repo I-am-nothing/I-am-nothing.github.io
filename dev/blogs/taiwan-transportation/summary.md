@@ -5,7 +5,6 @@ categories:
  - Taiwan-Transportation Tracking App
 tags:
  - Summary
-sticky: 1
 ---
 
 Summary

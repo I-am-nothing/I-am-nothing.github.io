@@ -5,7 +5,6 @@ categories:
  - Vue-Press部落格
 tags:
  - 摘要
-sticky: 1
 ---
 
 Summary

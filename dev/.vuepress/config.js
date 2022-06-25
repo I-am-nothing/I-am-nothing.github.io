@@ -25,7 +25,9 @@ module.exports = {
     '/categories/關於 Nothing/': '/categories/About-Nothing/',
     '/categories/台灣大眾運輸追蹤APP/': '/categories/Taiwan-Transportation Tracking App/',
     '/zh-TW/tag/Summary/': '/zh-TW/tag/摘要/',
-    '/tag/摘要/': '/tag/Summary/'
+    '/tag/摘要/': '/tag/Summary/',
+    '/categories/實用的“庫”/': '/categories/Useful Repositories/',
+    '/zh-TW/categories/Useful Repositories/': '/zh-TW/categories/實用的“庫”/'
   }, 
   locales: {
     '/': {
@@ -37,6 +39,11 @@ module.exports = {
       lang: 'zh-TW',
       title: 'I-am-nothing',
       description: '我相信我碰不到天空～～～'
+    }
+  },
+  thirdPartyComponents: {
+    fontAwesomeIcons:{  // Regular font awesome icon keys here
+        brands:['github']               // Solid font awesome icon keys here
     }
   },
   base: '/',
@@ -106,6 +113,9 @@ module.exports = {
             }, {
               text: 'Diary',
               link: '/categories/Diary/',
+            }, {
+              text: 'Useful Repositories',
+              link: '/categories/Useful%20Repositories/',
             }
           ]
           }, {
@@ -191,6 +201,9 @@ module.exports = {
             }, {
               text: '日記',
               link: '/zh-TW/categories/日記/',
+            }, {
+              text: '實用的“庫”',
+              link: '/zh-TW/categories/實用的“庫”/',
             }
           ]
           }, {
