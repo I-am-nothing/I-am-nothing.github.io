@@ -170,6 +170,7 @@ module.exports = {
           serverURLs: 'https://uzxtuh1j.api.lncldglobal.com',
           placeholder: "It's time to show the real technology",
           avatar: 'wavatar',
+          recordIP: true
         },
       },
       '/zh-TW/': {
@@ -266,6 +267,7 @@ module.exports = {
           serverURLs: 'https://uzxtuh1j.api.lncldglobal.com',
           placeholder: "是時候展示真正的技術了",
           avatar: 'wavatar',
+          recordIP: true
         },
       },
     },
