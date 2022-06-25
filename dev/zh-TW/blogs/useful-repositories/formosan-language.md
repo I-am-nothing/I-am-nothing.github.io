@@ -6,7 +6,7 @@ categories:
 sticky: 1
 ---
 
-#### <i data-v-50777274="" class="iconfont reco-github" style="color: rgb(66, 152, 245);"></i> &nbsp;Github Link [Here](https://github.com/splitline/FormosanLanguages.h)
+#### <i data-v-50777274="" class="iconfont reco-github" style="color: rgb(66, 152, 245);"></i> &nbsp;Github 連結 [點我](https://github.com/splitline/FormosanLanguages.h)
 
 ## 概述
 
