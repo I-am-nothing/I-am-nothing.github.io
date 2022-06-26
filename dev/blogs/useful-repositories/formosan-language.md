@@ -7,7 +7,7 @@ author: Splitline
 sticky: 1
 ---
 
-#### <i data-v-50777274="" class="iconfont reco-account" style="color: rgb(66, 152, 245);"></i> &nbsp;Author：[Splitline](https://github.com/splitline?tab=repositories)<br/><br/><i data-v-50777274="" class="iconfont reco-github" style="color: rgb(66, 152, 245);"></i> &nbsp;Github Link [Here](https://github.com/splitline/FormosanLanguages.h)
+#### <i data-v-50777274="" class="iconfont reco-account" style="color: rgb(66, 152, 245);"></i> &nbsp;Author：[Splitline](https://github.com/splitline?tab=repositories)<br/><br/><i data-v-50777274="" class="iconfont reco-github" style="color: rgb(66, 152, 245);"></i> &nbsp;Github Link [Here](https://github.com/splitline/FormosanLanguages.h)<br/><br/><i data-v-50777274="" class="iconfont reco-copyright" style="color: rgb(66, 152, 245);"></i> &nbsp;The following is taken from this author
 
 ## Summary
 

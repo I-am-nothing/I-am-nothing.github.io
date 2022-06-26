@@ -1,6 +1,9 @@
 module.exports = {
   plugins: [
     [
+      'go-top',
+    ],
+    [
       '@vuepress/last-updated',
       {
         transformer: (timestamp, lang) => {
@@ -72,7 +75,6 @@ module.exports = {
       }
     ]
   ],
-  theme: 'vuepress-theme-reco',
   mode: 'dark',
   themeConfig: {
     locales: {
