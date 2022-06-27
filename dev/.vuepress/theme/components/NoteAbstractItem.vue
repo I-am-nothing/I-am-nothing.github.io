@@ -86,11 +86,11 @@ export default {
     color $accentColor
     font-size 2.4rem
   .abstract-item-img
-    width: 40%
+    width: 38%
     overflow: hidden
     display: flex
-    margin-top: 1.4rem
-    margin-bottom: 1.4rem
+    margin-top: 1.75rem
+    margin-bottom: 1.75rem
     padding-left: 1rem
     padding-right: 1rem
     .cover-img

@@ -97,7 +97,7 @@ module.exports = {
       }
     ]
   ],
-  mode: 'dark',
+  mode: 'auto',
   themeConfig: {
     locales: {
       '/': {

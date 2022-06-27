@@ -9,7 +9,7 @@ heroImageStyle: {
   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
 bgImageStyle: {
-  height: '500px'
+  height: '50rem'
 }
 ---
 

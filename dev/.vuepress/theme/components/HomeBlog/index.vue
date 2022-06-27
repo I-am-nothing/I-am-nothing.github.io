@@ -1,60 +1,63 @@
 <template>
   <div class="home-blog">
-    <div class="hero" :style="{ ...bgImageStyle }">
-      <div>
-        <ModuleTransition>
-          <img
-            class="hero-img"
-            v-if="recoShowModule && $frontmatter.heroImage"
-            :style="heroImageStyle || {}"
-            :src="$withBase($frontmatter.heroImage)"
-            alt="hero"
-          />
-        </ModuleTransition>
+    <div :style="{ ...xddStyle }">
+      <div class="hero" :style="{ ...bgImageStyle }">
+        <div>
+          <ModuleTransition>
+            <img
+              class="hero-img"
+              v-if="recoShowModule && $frontmatter.heroImage"
+              :style="heroImageStyle || {}"
+              :src="$withBase($frontmatter.heroImage)"
+              alt="hero"
+            />
+          </ModuleTransition>
 
-        <ModuleTransition delay="0.04">
-          <h1 v-if="recoShowModule && $frontmatter.heroText !== null">
-            {{ $frontmatter.heroText || $title || 'vuePress-theme-reco' }}
-          </h1>
-        </ModuleTransition>
+          <ModuleTransition delay="0.04">
+            <h1 v-if="recoShowModule && $frontmatter.heroText !== null">
+              {{ $frontmatter.heroText || $title || 'vuePress-theme-reco' }}
+            </h1>
+          </ModuleTransition>
 
-        <ModuleTransition delay="0.08">
-          <p v-if="recoShowModule && $frontmatter.tagline !== null" class="description">
-            {{ $frontmatter.tagline || $description || 'Welcome to your vuePress-theme-reco site' }}
-          </p>
-        </ModuleTransition>
+          <ModuleTransition delay="0.08">
+            <p v-if="recoShowModule && $frontmatter.tagline !== null" class="description">
+              {{ $frontmatter.tagline || $description || 'Welcome to your vuePress-theme-reco site' }}
+            </p>
+          </ModuleTransition>
+        </div>
       </div>
+    
+
+      <ModuleTransition delay="0.16">
+        <div v-show="recoShowModule" class="home-blog-wrapper">
+          <div class="blog-list">
+            <!-- 博客列表 -->
+            <note-abstract :data="$recoPosts" @paginationChange="paginationChange" />
+          </div>
+          <div class="info-wrapper">
+            <PersonalInfo/>
+            <h4><reco-icon icon="reco-category" /> {{$recoLocales.category}}</h4>
+            <ul class="category-wrapper">
+              <li class="category-item" v-for="(item, index) in this.$categoriesList" v-show="item.pages && item.pages.length > 0" :key="index">
+                <router-link :to="item.path">
+                  <span class="category-name">{{ item.name }}</span>
+                  <span class="post-num" :style="{ 'backgroundColor': getOneColor() }">{{ item.pages.length }}</span>
+                </router-link>
+              </li>
+            </ul>
+            <hr>
+            <h4 v-if="$tags.list.length !== 0"><reco-icon icon="reco-tag" /> {{$recoLocales.tag}}</h4>
+            <TagList @getCurrentTag="getPagesByTags" />
+            <h4 v-if="$themeConfig.friendLink && $themeConfig.friendLink.length !== 0"><reco-icon icon="reco-friend" /> {{$recoLocales.friendLink}}</h4>
+            <FriendLink />
+          </div>
+        </div>
+      </ModuleTransition>
+
+      <ModuleTransition delay="0.24">
+        <Content v-show="recoShowModule" class="home-center" custom/>
+      </ModuleTransition>
     </div>
-
-    <ModuleTransition delay="0.16">
-      <div v-show="recoShowModule" class="home-blog-wrapper">
-        <div class="blog-list">
-          <!-- 博客列表 -->
-          <note-abstract :data="$recoPosts" @paginationChange="paginationChange" />
-        </div>
-        <div class="info-wrapper">
-          <PersonalInfo/>
-          <h4><reco-icon icon="reco-category" /> {{$recoLocales.category}}</h4>
-          <ul class="category-wrapper">
-            <li class="category-item" v-for="(item, index) in this.$categoriesList" v-show="item.pages && item.pages.length > 0" :key="index">
-              <router-link :to="item.path">
-                <span class="category-name">{{ item.name }}</span>
-                <span class="post-num" :style="{ 'backgroundColor': getOneColor() }">{{ item.pages.length }}</span>
-              </router-link>
-            </li>
-          </ul>
-          <hr>
-          <h4 v-if="$tags.list.length !== 0"><reco-icon icon="reco-tag" /> {{$recoLocales.tag}}</h4>
-          <TagList @getCurrentTag="getPagesByTags" />
-          <h4 v-if="$themeConfig.friendLink && $themeConfig.friendLink.length !== 0"><reco-icon icon="reco-friend" /> {{$recoLocales.friendLink}}</h4>
-          <FriendLink />
-        </div>
-      </div>
-    </ModuleTransition>
-
-    <ModuleTransition delay="0.24">
-      <Content v-show="recoShowModule" class="home-center" custom/>
-    </ModuleTransition>
   </div>
 </template>
 
@@ -90,12 +93,22 @@ export default defineComponent({
       const initBgImageStyle = {
         textAlign: 'center',
         overflow: 'hidden',
-        background: `url(${url}) center/cover no-repeat`
+        background: `url(${url}) center/cover repeat`
       }
 
       const { bgImageStyle } = instance.$frontmatter
 
-      return bgImageStyle ? { ...initBgImageStyle, ...bgImageStyle } : initBgImageStyle
+      return bgImageStyle ? { ...bgImageStyle } : initBgImageStyle
+    })
+
+    const xddStyle = computed(()=> {
+      const url = require('../../images/bg.svg')
+      const initStyle = {
+        textAlign: 'center',
+        overflow: 'visible',
+        background: `url(${url}) center/cover repeat`
+      }
+      return initStyle
     })
 
     onMounted(() => {
@@ -103,7 +116,7 @@ export default defineComponent({
       state.recoShow = true
     })
 
-    return { recoShowModule, heroImageStyle, bgImageStyle, ...toRefs(state), getOneColor }
+    return { xddStyle, recoShowModule, heroImageStyle, bgImageStyle, ...toRefs(state), getOneColor }
   },
   methods: {
     paginationChange (page) {
@@ -122,6 +135,11 @@ export default defineComponent({
 .home-blog {
   padding: 0;
   margin: 0px auto;
+  background-image: url('../../images/background.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-attachment: fixed
+  background-position: center
   .hero {
     margin $navbarHeight auto 0
     position relative
