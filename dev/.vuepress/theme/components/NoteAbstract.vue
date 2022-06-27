@@ -1,11 +1,12 @@
 <template>
   <div class="abstract-wrapper">
     <NoteAbstractItem
-      v-for="(item) in currentPageData"
+      v-for="(item, index) in currentPageData"
       :key="item.path"
       :item="item"
       :currentPage="currentPage"
       :currentTag="currentTag"
+      :index="index"
     />
     <pagation
       class="pagation"

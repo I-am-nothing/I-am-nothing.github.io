@@ -1,22 +1,37 @@
 <template>
-  <div
-    class="abstract-item">
+  <div v-if="index & 1" class="abstract-item">
     <i v-if="item.frontmatter.sticky" class="iconfont reco-sticky"></i>
-    <div class="title">
+    <div class = "abstract-item-text">
+      <div class="title">
       <i v-if="item.frontmatter.keys" class="iconfont reco-lock"></i>
       <router-link :to="item.path">{{item.title}}</router-link>
+      </div>
+      <hr class="hr"></hr>
+      <PageInfo
+        :pageInfo="item"
+        :currentTag="currentTag">
+      </PageInfo>
     </div>
-    <div v-if="item.frontmatter.cover" class="cover">
-      <img
-        :src="coverSrc"
-        alt="封面" class="cover-img">
+    <div v-if="item.frontmatter.cover" class="abstract-item-img">
+      <img :src="coverSrc" alt="cover" class="cover-img">
     </div>
-    <div class="abstract" v-html="item.excerpt"></div>
-    <hr class="hr">
-    <PageInfo
-      :pageInfo="item"
-      :currentTag="currentTag">
-    </PageInfo>
+  </div>
+  <div v-else class="abstract-item">
+    <i v-if="item.frontmatter.sticky" class="iconfont reco-sticky"></i>
+    <div v-if="item.frontmatter.cover" class="abstract-item-img">
+      <img :src="coverSrc" alt="cover" class="cover-img">
+    </div>
+    <div class = "abstract-item-text">
+      <div class="title">
+      <i v-if="item.frontmatter.keys" class="iconfont reco-lock"></i>
+      <router-link :to="item.path">{{item.title}}</router-link>
+      </div>
+      <hr class="hr"></hr>
+      <PageInfo
+        :pageInfo="item"
+        :currentTag="currentTag">
+      </PageInfo>
+    </div>
   </div>
 </template>
 
@@ -24,7 +39,7 @@
 import PageInfo from './PageInfo'
 export default {
   components: { PageInfo },
-  props: ['item', 'currentPage', 'currentTag'],
+  props: ['item', 'currentPage', 'currentTag', 'index'],
   computed: {
     coverSrc(){
       return this.item.frontmatter.cover;
@@ -36,51 +51,26 @@ export default {
 <style lang="stylus" scoped>
 @require '../styles/mode.styl'
 .abstract-item
-  position relative
-  margin: 0 auto 20px;
-  padding: 16px 20px;
-  width 100%
-  overflow: hidden;
-  border-radius: $borderRadius
-  box-shadow: var(--box-shadow);
-  box-sizing: border-box;
-  transition all .3s
-  background-color var(--background-color)
-  .reco-sticky
-    position absolute
-    top 0
-    left 0
-    display inline-block
-    color $accentColor
-    font-size 2.4rem
+  position: relative;
+  padding-left: 2rem
+  padding-right: 2rem
+  margin: 0 auto 1rem
+  width: 100%
+  overflow: hidden
+  border-radius: 0.5rem
+  box-shadow: var(--box-shadow)
+  box-sizing: border-box
+  transition: all .3s
+  background-color: var(--background-color)
+  cursor: pointer
+  display: flex
+  flex-grow: 1
+  flex-direction: row
+  min-height: 200px
+  align-items: center
+  min-height: auto;
   &:hover
     box-shadow: var(--box-shadow-hover)
-  .title
-    position: relative;
-    font-size: 1.28rem;
-    line-height: 36px;
-    display: inline-block;
-    .reco-lock
-      font-size 1.28rem
-      color $accentColor
-    &:after
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      bottom: 0;
-      left: 0;
-      background-color: $accentColor;
-      visibility: hidden;
-      -webkit-transform: scaleX(0);
-      transform: scaleX(0);
-      transition: .3s ease-in-out;
-    &:hover a
-      color $accentColor
-    &:hover:after
-      visibility visible
-      -webkit-transform: scaleX(1);
-      transform: scaleX(1);
   .tags
     .tag-item
       cursor: pointer;
@@ -88,19 +78,56 @@ export default {
         color $accentColor
       &:hover
         color $accentColor
-  .cover
-    width 100%
-    max-height 500px
-    text-align: left;
+  .reco-sticky
+    position absolute
+    top 0
+    left 0
+    display inline-block
+    color $accentColor
+    font-size 2.4rem
+  .abstract-item-img
+    width: 40%
+    overflow: hidden
+    display: flex
+    margin-top: 1.4rem
+    margin-bottom: 1.4rem
+    padding-left: 1rem
+    padding-right: 1rem
     .cover-img
-      max-width 100%
-      max-height 500px
-      margin-top: 25px;
-      margin-bottom: 3px;
-      margin-right: 25px;
-@media (max-width: $MQMobile)
-  .tags
-    display block
-    margin-top 1rem;
-    margin-left: 0!important;
+      width: 100%
+      height: 100%
+      -o-object-fit: cover
+      object-fit: cover
+      transition: all 1s
+      height: 175px
+      border-radius: 10px
+  .abstract-item-text
+    padding-top: 0.5rem
+    padding-bottom: 0.5rem
+    box-sizing: border-box
+    height: -webkit-min-content
+    height: -moz-min-content
+    height: min-content
+    flex: 1
+    text-align: center;
+    .title
+      position: relative
+      font-size: 1.28rem
+      line-height: 46px
+      display: inline-block
+    .abstract
+      pointer-events: auto;
+    .hr
+      font-family: Ubuntu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 15px;
+      color: #7bb5f5;
+      background-color: #7bb5f5;
+      margin-bottom: 0.8rem
+      margin-left: 2rem
+      margin-right: 2rem
+    .tags
+      display block
+      margin-bottom: 0!important
 </style>

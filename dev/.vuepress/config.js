@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     [
-      'go-top',
+      'vuepress-plugin-go-top'
     ],
     [
       '@vuepress/last-updated',
@@ -31,7 +31,7 @@ module.exports = {
             vOffset: 0,
           },
           mobile: {
-            show: true // 是否在移动设备上显示(default: false)
+            show: false // 是否在移动设备上显示(default: false)
           },
           react: {
             opacity: 0.9 // 模型透明度(default: 0.8)
@@ -49,10 +49,10 @@ module.exports = {
     '/categories/Vue-Press部落格/': '/categories/Vue-Press Blog/',
     '/categories/關於 Nothing/': '/categories/About-Nothing/',
     '/categories/台灣大眾運輸追蹤APP/': '/categories/Taiwan-Transportation Tracking App/',
-    '/zh-TW/tag/Summary/': '/zh-TW/tag/摘要/',
-    '/tag/摘要/': '/tag/Summary/',
+    '/zh-TW/tag/Summary/': '/zh-TW/tag/概述/',
+    '/tag/概述/': '/tag/Summary/',
     '/categories/實用的“庫”/': '/categories/Useful Repositories/',
-    '/zh-TW/categories/Useful Repositories/': '/zh-TW/categories/實用的“庫”/'
+    '/zh-TW/categories/Useful Repositories/': '/zh-TW/categories/實用的“庫”/',
   }, 
   locales: {
     '/': {
@@ -97,7 +97,6 @@ module.exports = {
       }
     ]
   ],
-  theme: 'jabinblog',
   mode: 'dark',
   themeConfig: {
     locales: {
