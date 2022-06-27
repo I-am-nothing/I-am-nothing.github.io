@@ -1,5 +1,5 @@
 ---
-title: Vue-Press_摘要
+title: '[Vue-Press] ~ 摘要'
 date: 2022-06-26
 categories: 
  - Vue-Press部落格
@@ -50,6 +50,8 @@ sticky: 2
 
 ### &emsp;已完成：
 
+&emsp;&emsp;( <Fa-Check/> )&emsp;把文檔加入封面<br/>
+&emsp;&emsp;( <Fa-Check/> )&emsp;新增貓貓 live 2D<br/>
 &emsp;&emsp;( <Fa-Check/> )&emsp;解決子側邊欄 tap(emsp) 與空白 (nbsp) 顯示問題<br/>
 &emsp;&emsp;( <Fa-Check/> )&emsp;將回到頂部按鈕換成喵喵<br/>
 &emsp;&emsp;( <Fa-Check/> )&emsp;新增留言功能<br/>

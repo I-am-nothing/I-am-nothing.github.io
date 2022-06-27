@@ -1,9 +1,10 @@
 ---
-title: '輕鬆用原住民語寫程式'
+title: '[實用的“庫”] ~ 輕鬆用原住民語寫程式'
 date: 2022-06-25
 categories: 
  - 實用的“庫”
 author: Splitline
+cover: /useful-repositories/formosan-language/we_are_taiwanese.png
 sticky: 1
 ---
 
@@ -13,7 +14,7 @@ sticky: 1
 
 &emsp; 讓您輕鬆用原住民語寫程式！
 
-![](/useful-repositories/formosan-language/we_are_taiwanese.jpeg)<br/>
+![](/useful-repositories/formosan-language/we_are_taiwanese.png)<br/>
 
 ## 如何使用
 

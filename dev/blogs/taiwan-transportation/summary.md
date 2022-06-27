@@ -1,5 +1,5 @@
 ---
-title: Summary of Taiwan Transportation Tracking App
+title: '[Taiwan Transportation Tracking App] ~ Summary'
 date: 2022-06-21
 categories: 
  - Taiwan-Transportation Tracking App

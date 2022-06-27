@@ -16,6 +16,28 @@ module.exports = {
       {
         hostname: 'https://i-am-nothing.github.io/'
       }
+    ],
+    [
+      'vuepress-plugin-helper-live2d', {
+        log: false,
+        live2d: {
+          enable: true,
+          model: 'tororo',
+          display: {
+            position: 'left',
+            width: 135,
+            height: 300, 
+            hOffset: 65,
+            vOffset: 0,
+          },
+          mobile: {
+            show: true // 是否在移动设备上显示(default: false)
+          },
+          react: {
+            opacity: 0.9 // 模型透明度(default: 0.8)
+          }
+        }
+      }
     ]
   ],
   linkFix: {
@@ -75,6 +97,7 @@ module.exports = {
       }
     ]
   ],
+  theme: 'jabinblog',
   mode: 'dark',
   themeConfig: {
     locales: {

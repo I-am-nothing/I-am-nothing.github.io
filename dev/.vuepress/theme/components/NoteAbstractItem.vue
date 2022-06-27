@@ -1,13 +1,18 @@
 <template>
   <div
-    class="abstract-item"
-    @click="$router.push(item.path)">
-    <reco-icon v-if="item.frontmatter.sticky" icon="reco-sticky" />
+    class="abstract-item">
+    <i v-if="item.frontmatter.sticky" class="iconfont reco-sticky"></i>
     <div class="title">
-      <reco-icon v-if="item.frontmatter.keys" icon="reco-lock" />
+      <i v-if="item.frontmatter.keys" class="iconfont reco-lock"></i>
       <router-link :to="item.path">{{item.title}}</router-link>
     </div>
+    <div v-if="item.frontmatter.cover" class="cover">
+      <img
+        :src="coverSrc"
+        alt="封面" class="cover-img">
+    </div>
     <div class="abstract" v-html="item.excerpt"></div>
+    <hr class="hr">
     <PageInfo
       :pageInfo="item"
       :currentTag="currentTag">
@@ -16,16 +21,20 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue-demi'
-import { RecoIcon } from '@vuepress-reco/core/lib/components'
 import PageInfo from './PageInfo'
-export default defineComponent({
-  components: { PageInfo, RecoIcon },
-  props: ['item', 'currentPage', 'currentTag']
-})
+export default {
+  components: { PageInfo },
+  props: ['item', 'currentPage', 'currentTag'],
+  computed: {
+    coverSrc(){
+      return this.item.frontmatter.cover;
+    }
+  }
+}
 </script>
 
 <style lang="stylus" scoped>
+@require '../styles/mode.styl'
 .abstract-item
   position relative
   margin: 0 auto 20px;
@@ -37,10 +46,6 @@ export default defineComponent({
   box-sizing: border-box;
   transition all .3s
   background-color var(--background-color)
-  cursor: pointer;
-  > * {
-    pointer-events: auto;
-  }
   .reco-sticky
     position absolute
     top 0
@@ -53,10 +58,8 @@ export default defineComponent({
   .title
     position: relative;
     font-size: 1.28rem;
-    line-height: 46px;
+    line-height: 36px;
     display: inline-block;
-    a
-      color: var(--text-color);
     .reco-lock
       font-size 1.28rem
       color $accentColor
@@ -80,10 +83,21 @@ export default defineComponent({
       transform: scaleX(1);
   .tags
     .tag-item
+      cursor: pointer;
       &.active
         color $accentColor
       &:hover
         color $accentColor
+  .cover
+    width 100%
+    max-height 500px
+    text-align: left;
+    .cover-img
+      max-width 100%
+      max-height 500px
+      margin-top: 25px;
+      margin-bottom: 3px;
+      margin-right: 25px;
 @media (max-width: $MQMobile)
   .tags
     display block

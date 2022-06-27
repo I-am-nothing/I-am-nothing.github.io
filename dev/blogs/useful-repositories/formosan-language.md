@@ -1,9 +1,10 @@
 ---
-title: 'Easily Coding With The Formosan Language'
+title: '[Useful Repositories] ~ Easily Coding With The Formosan Language'
 date: 2022-06-25
 categories: 
  - Useful Repositories
 author: Splitline
+cover: /useful-repositories/formosan-language/we_are_taiwanese.png
 sticky: 1
 ---
 
@@ -13,7 +14,7 @@ sticky: 1
 
 &emsp; Easily coding with the Formosan language
 
-![](/useful-repositories/formosan-language/we_are_taiwanese.jpeg)<br/>
+![](/useful-repositories/formosan-language/we_are_taiwanese.png)<br/>
 
 ## How To Use It
 

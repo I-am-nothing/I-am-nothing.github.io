@@ -1,5 +1,5 @@
 ---
-title: Summary of Vue-Press Blog
+title: '[Vue-Press Blog] ~ Summary' 
 date: 2022-06-26
 categories: 
  - Vue-Press Blog
@@ -50,6 +50,8 @@ sticky: 2
 
 ### &emsp;Finished：
 
+&emsp;&emsp;( <Fa-Check/> )&emsp;Added Docs Cover<br/>
+&emsp;&emsp;( <Fa-Check/> )&emsp;Added cat live 2D<br/>
 &emsp;&emsp;( <Fa-Check/> )&emsp;Solved display issue of sub navBar tap(emsp) and space(nbsp)<br/>
 &emsp;&emsp;( <Fa-Check/> )&emsp;Replaced the back to top button with meow~<br/>
 &emsp;&emsp;( <Fa-Check/> )&emsp;Added feature of the message<br/>
