@@ -138,10 +138,6 @@ export default defineComponent({
   background-size: cover
   background-attachment: fixed
   background-position: center
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility:  hidden;
-  -webkit-transform: translate3d(0, 0, 0);
 .textStyle
   text-align: left;
 .home-blog {
