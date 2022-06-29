@@ -1,5 +1,5 @@
 <template>
-  <div class="home-blog">
+  <div class="home-blog xdd">
     <div :style="{ ...xddStyle }">
       <div class="hero" :style="{ ...bgImageStyle }">
         <div>
@@ -132,17 +132,20 @@ export default defineComponent({
 </script>
 
 <style lang="stylus">
-.textStyle
-  text-align: left;
-.home-blog {
-  padding: 0;
-  margin: 0px auto;
+.xdd
   background-image: url('../../images/background.jpg')
   background-repeat: no-repeat
   background-size: cover
   background-attachment: fixed
   background-position: center
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility:  idden;
+.textStyle
+  text-align: left;
+.home-blog {
+  padding: 0;
+  margin: 0px auto;
   .hero {
     margin $navbarHeight auto 0
     position relative
