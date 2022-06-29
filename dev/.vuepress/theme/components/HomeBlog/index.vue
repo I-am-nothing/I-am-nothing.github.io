@@ -139,7 +139,7 @@ export default defineComponent({
   margin: 0px auto;
   background-image: url('../../images/background.jpg')
   background-repeat: no-repeat
-  background-size: cover
+  background-size: auto 1000px;
   background-attachment: fixed
   background-position: center
   .hero {
