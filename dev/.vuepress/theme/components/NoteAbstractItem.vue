@@ -179,8 +179,6 @@ export default {
     border-radius: 10px
     transition: all 0.5s
     .cover-img
-      width: 100%
-      height: auto
       margin-left: auto
       margin-right: auto
       position relative
@@ -219,6 +217,9 @@ export default {
       margin-bottom: 0!important
 @media screen and (min-width: 700px)
   .abstract-item
+    .cover-img
+      width: 100%
+      height: auto
     &:hover
       box-shadow: var(--box-shadow-hover)
       .abstract-item-img
@@ -242,12 +243,14 @@ export default {
       width: 40%
 @media screen and (max-width: 700px)
   .abstract-item
+    .cover-img
+      width: 85%
+      height: auto
     &:hover
-      box-shadow: var(--box-shadow-hover)
       .abstract-item-img
         width: 100%
       .cover-img
-        width: 105%
+        width: 100%
         height: auto
   .abstract-item-style-one
     display: list
