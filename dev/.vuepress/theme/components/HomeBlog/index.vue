@@ -141,7 +141,7 @@ export default defineComponent({
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility:  hidden;
-  -webkit-transform: translate3d(1, 1, 1);
+  -webkit-transform: translate3d(0, 0, 0);
 .textStyle
   text-align: left;
 .home-blog {
