@@ -188,8 +188,8 @@ export default {
   .abstract-item-text
     margin-left: 0.5rem
     margin-right: 0.5rem
-    padding-top: 0.5rem
-    padding-bottom: 0.5rem
+    margin-top: 1rem
+    margin-bottom: 1rem
     box-sizing: border-box
     height: -webkit-min-content
     height: -moz-min-content
@@ -244,8 +244,9 @@ export default {
 @media screen and (max-width: 700px)
   .abstract-item
     .cover-img
-      width: 85%
+      width: 90%
       height: auto
+      border-radius: 10px
     &:hover
       .abstract-item-img
         width: 100%
