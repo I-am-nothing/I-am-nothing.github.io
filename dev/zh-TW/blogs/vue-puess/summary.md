@@ -5,7 +5,7 @@ categories:
  - Vue-Press部落格
 tags:
  - 概述
-cover: /vue-press/vue-press.avif
+cover: /vue-press/vue-press.jpeg
 sticky: 2
 ---
 

@@ -5,7 +5,7 @@ categories:
  - Vue-Press Blog
 tags:
  - Summary
-cover: /vue-press/vue-press.avif
+cover: /vue-press/vue-press.jpeg
 sticky: 2
 ---
 

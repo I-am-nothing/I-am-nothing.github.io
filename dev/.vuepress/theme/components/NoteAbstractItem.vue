@@ -215,7 +215,7 @@ export default {
     .tags
       display block
       margin-bottom: 0!important
-@media screen and (min-width: 700px)
+@media screen and (min-width: 850px)
   .abstract-item
     .cover-img
       width: 100%
@@ -241,7 +241,7 @@ export default {
       margin-left: 1rem
       margin-right: 1rem
       width: 40%
-@media screen and (max-width: 700px)
+@media screen and (max-width: 850px)
   .abstract-item
     .cover-img
       width: 90%

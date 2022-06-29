@@ -140,7 +140,8 @@ export default defineComponent({
   background-position: center
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
-  -ms-backface-visibility:  idden;
+  -ms-backface-visibility:  hidden;
+  -webkit-transform: translate3d(1, 1, 1);
 .textStyle
   text-align: left;
 .home-blog {
