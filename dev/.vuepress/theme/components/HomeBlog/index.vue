@@ -138,6 +138,9 @@ export default defineComponent({
   background-size: cover
   background-attachment: fixed
   background-position: center
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility:  hidden;
 .textStyle
   text-align: left;
 .home-blog {
@@ -185,6 +188,7 @@ export default defineComponent({
       }
     }
     .info-wrapper {
+      margin-top: 1rem
       position -webkit-sticky;
       position sticky;
       top 70px
@@ -315,7 +319,6 @@ export default defineComponent({
         width auto
       }
       .info-wrapper {
-        // display none!important
         margin-left 0
         .personal-info-wrapper {
           display none
