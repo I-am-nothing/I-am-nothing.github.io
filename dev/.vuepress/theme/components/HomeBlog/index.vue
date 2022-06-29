@@ -111,10 +111,10 @@ export default defineComponent({
       return initStyle
     })
 
-    onMounted(() => {
-      state.heroHeight = document.querySelector('.hero').clientHeight
-      state.recoShow = true
-    })
+    // onMounted(() => {
+    //   state.heroHeight = document.querySelector('.hero').clientHeight
+    //   state.recoShow = true
+    // })
 
     return { xddStyle, recoShowModule, heroImageStyle, bgImageStyle, ...toRefs(state), getOneColor }
   },
@@ -142,6 +142,9 @@ export default defineComponent({
   background-size: cover
   background-attachment: fixed
   background-position: center
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
   .hero {
     margin $navbarHeight auto 0
     position relative
