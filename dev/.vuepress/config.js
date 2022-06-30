@@ -201,6 +201,27 @@ module.exports = {
           recordIP: true,
           lang: 'en'
         },
+        friendLink: [{
+          logo: 'https://urloser404.github.io/hero.jpg',
+          title: 'URLoser404',
+          desc: "A junior in in Taichung Municipal Taichung Industrial High School, URLoser404 XD",
+          link: 'https://urloser404.github.io/'
+        }, {
+          logo: 'https://mr6915tri8513.github.io/home_page/avatar.png',
+          title: 'Mr6915tri8513',
+          desc: "A classmate in Taichung Municipal Taichung Industrial High School. We're friends, right",
+          link: 'https://mr6915tri8513.github.io/'
+        }, {
+          logo: 'https://docat0209.github.io/page.png',
+          title: 'Docat0209',
+          desc: "Competitor who fought with me",
+          link: 'https://docat0209.github.io/'
+        }, {
+          logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmKE_FCpSYHZJz0k_k1FwFI-GHXWaJTXymQ&usqp=CAU',
+          title: 'Rick Astley',
+          desc: "You know the rules and so do I ~~~",
+          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        }],
       },
       '/zh-TW/': {
         selectText: 'Languages',
@@ -299,6 +320,27 @@ module.exports = {
           recordIP: true,
           lang: 'zh-TW'
         },
+        friendLink: [{
+          logo: 'https://urloser404.github.io/hero.jpg',
+          title: 'URLoser404',
+          desc: "是在臺中高工時的學弟啦 妄想成為電神的肥宅",
+          link: 'https://urloser404.github.io/'
+        }, {
+          logo: 'https://mr6915tri8513.github.io/home_page/avatar.png',
+          title: 'Mr6915tri8513',
+          desc: "是在臺中高工時的同學啦，應該算是朋友吧",
+          link: 'https://mr6915tri8513.github.io/'
+        }, {
+          logo: 'https://docat0209.github.io/page.png',
+          title: 'Docat0209',
+          desc: "跟我一同奮戰過的選手",
+          link: 'https://docat0209.github.io/'
+        }, {
+          logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmKE_FCpSYHZJz0k_k1FwFI-GHXWaJTXymQ&usqp=CAU',
+          title: 'Rick Astley',
+          desc: "你知道規則的，我當然也知道～",
+          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        }],
       },
     },
     type: 'blog',
@@ -314,28 +356,6 @@ module.exports = {
         icon: 'reco-mail'
       }],
     },
-    friendLink: [{
-        logo: 'https://urloser404.github.io/hero.jpg',
-        title: 'URLoser404',
-        desc: "URLoser404's personal website",
-        link: 'https://urloser404.github.io/'
-      }, {
-        logo: 'https://mr6915tri8513.github.io/home_page/avatar.png',
-        title: 'Mr6915tri8513',
-        desc: "Mr6915tri8513's personal website",
-        link: 'https://mr6915tri8513.github.io/'
-      }, {
-        logo: 'https://docat0209.github.io/page.png',
-        title: 'Docat0209',
-        desc: "Docat0219's personal website",
-        link: 'https://docat0209.github.io/'
-      }, {
-        logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmKE_FCpSYHZJz0k_k1FwFI-GHXWaJTXymQ&usqp=CAU',
-        title: 'Rick Astley',
-        desc: "Never gonna give you up ~~~",
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-      }
-    ],
     logo: '/hero.png',
     search: true,
     searchMaxSuggestions: 10,

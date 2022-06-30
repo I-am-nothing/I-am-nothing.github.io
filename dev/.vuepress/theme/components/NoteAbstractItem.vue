@@ -1,7 +1,7 @@
 <template>
   <router-link :to="item.path">
     <div id="xdd" :class="abstractItemStyle" ref="app">
-      <i class="iconfont reco-sticky"></i>
+      <i v-if="item.frontmatter.sticky" class="iconfont reco-sticky"></i>
       <div class="abstract-item-text">
         <div class="title">
         <i v-if="item.frontmatter.keys" class="iconfont reco-lock"></i>
@@ -89,6 +89,9 @@ export default {
     right: 0;
   &:hover
     color: #60daaa;
+    .abstract-item-text
+      .hr
+        background-color: #60daaa
     &::before, &::after
       width: 100%;
       height: 100%;
@@ -104,6 +107,9 @@ export default {
 .meet
   &:hover
     color: #fbca67;
+    .abstract-item-text
+      .hr
+        background-color: #fbca67
     &::before
       border-top-color: #fbca67;
       border-right-color: #fbca67;
@@ -148,9 +154,6 @@ export default {
     left: 0;
   &:hover
     box-shadow: var(--box-shadow-hover)
-    .abstract-item-text
-      .hr
-        background-color: #888888
     .tags
       display block
       margin-bottom: 0!important
@@ -179,6 +182,7 @@ export default {
     border-radius: 10px
     transition: all 0.5s
     .cover-img
+      max-height: 200px
       margin-left: auto
       margin-right: auto
       position relative

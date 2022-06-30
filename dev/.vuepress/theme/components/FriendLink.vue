@@ -121,7 +121,7 @@ export default defineComponent({
     const { popupWindowStyle, showDetail, hideDetail } = useDetail()
 
     const dataAddColor = computed(() => {
-      const { friendLink = [] } = instance && instance.$themeConfig
+      const { friendLink = [] } = instance && (instance.$themeLocaleConfig || instance.$themeConfig)
       return friendLink.map(item => {
         item.color = getOneColor()
         return item
