@@ -1,6 +1,6 @@
 <template>
   <div class="home-blog xdd">
-    <div :style="{ ...xddStyle }">
+    <div>
       <div class="hero" :style="{ ...bgImageStyle }">
         <div>
           <ModuleTransition>
@@ -101,22 +101,12 @@ export default defineComponent({
       return bgImageStyle ? { ...bgImageStyle } : initBgImageStyle
     })
 
-    const xddStyle = computed(()=> {
-      const url = require('../../images/bg.svg')
-      const initStyle = {
-        textAlign: 'center',
-        overflow: 'visible',
-        background: `url(${url}) center/cover repeat`
-      }
-      return initStyle
+    onMounted(() => {
+      state.heroHeight = document.querySelector('.hero').clientHeight
+      state.recoShow = true
     })
 
-    // onMounted(() => {
-    //   state.heroHeight = document.querySelector('.hero').clientHeight
-    //   state.recoShow = true
-    // })
-
-    return { xddStyle, recoShowModule, heroImageStyle, bgImageStyle, ...toRefs(state), getOneColor }
+    return { recoShowModule, heroImageStyle, bgImageStyle, ...toRefs(state), getOneColor }
   },
   methods: {
     paginationChange (page) {

@@ -11,6 +11,8 @@ sticky: 2
 
 #### <i data-v-50777274="" class="iconfont reco-other" style="color: rgb(66, 152, 245);"></i> &nbsp;[Github 源代碼](https://github.com/I-am-nothing/I-am-nothing.github.io)
 
+&emsp; <Fa-CaretSquareRight color="rgb(66, 152, 245)"/> [01 快速建置](/zh-TW/blogs/vue-puess/01-quick-build.html)
+
 ## 概述
 
 &emsp; 由於一直以來有想要搭建自己的部落格
@@ -41,7 +43,7 @@ sticky: 2
 
 &emsp; 從 0 開始 <Fa-ArrowRight/> 「 [VuePress 快速上手](https://vuepress.vuejs.org/zh/guide/getting-started.html) 」
 
-&emsp; 直接套用主題（我的方式）<Fa-ArrowRight/>「 [01-快速建置](/zh-TW/blogs/vue-puess/01-quick-build.html) 」
+&emsp; 直接套用主題（我的方式）<Fa-ArrowRight/>「 [01 快速建置](/zh-TW/blogs/vue-puess/01-quick-build.html) 」
 
 ## 個人進度
 

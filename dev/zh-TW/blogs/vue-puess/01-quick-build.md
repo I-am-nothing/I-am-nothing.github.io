@@ -1,10 +1,15 @@
 ---
 title: '[Vue-Press] ~ 01 快速建置'
-date: 2022-06-26
+date: 2022-06-30
 categories: 
  - Vue-Press部落格
 cover: /vue-press/vue-press.jpeg
 ---
+
+#### <i class="iconfont reco-other" style="color: rgb(66, 152, 245);"></i> [Github 源代碼](https://github.com/I-am-nothing/I-am-nothing.github.io)
+
+&emsp; <Fa-CaretSquareLeft color="rgb(66, 152, 245)"/> [摘要](/zh-TW/blogs/vue-puess/summary.html)<br/>
+&emsp; <Fa-CaretSquareRight color="rgb(66, 152, 245)"/> [02 部署至 Github Page](/zh-TW/blogs/vue-puess/02-deploy-to-github.html)
 
 ## 主題
 
@@ -35,10 +40,11 @@ brew install yarn
 由於之後要把這個部署到 Github Page 上，所以建議把專案結構做成 <Fa-ArrowDown/>
 
 ```
-├── dev
-│   └── 攥寫部落格的位置
-└── docs
-    └── 生成靜態網頁位置
+你的專案名稱
+ ├── dev 
+ │    └── 攥寫部落格的位置
+ └── docs
+      └── 生成靜態網頁位置
 ```
 
 接著開啟 Command 或 Terminal 將路徑指到 dev 下 <Fa-ArrowDown/>
@@ -79,7 +85,37 @@ yarn dev
 ```
 大功告成，到這裡可以先跟著[官網文檔](https://vuepress-theme-reco.recoluan.com/views/1.x/)來摸索喔，把圖片、連結...先改成自己想要的
 
-下一章： [新增多國語言](/)
+這個主題的架構 <Fa-ArrowDown/>
+
+```
+專案名稱
+ ├── dev
+ │    ├── .vuepress 
+ │    │    ├── public (圖片放置位置)
+ │    │    │    └── 圖片
+ │    │    └── config.js (專案版型設定) 
+ │    ├── blogs  (分類)
+ │    │    ├── 分類名稱
+ │    │    │    └── 文章
+ │    │    └── 分類名稱
+ │    │         └── 文章
+ │    ├── docs (文檔)
+ │    │    ├── 文檔名稱
+ │    │    │    └── 文章
+ │    │    └── 文檔名稱
+ │    │         └── 文章
+ │    ├── node_modules (編譯檔案、插件)
+ │    │    └── 編譯檔案、插件
+ │    ├── README.md  
+ │    ├── package.json
+ │    ├── yarn.lock (勿動)
+ │    └── .gitignore
+ └── docs
+      └── 生成靜態網頁位置
+```
+
+
+下一章： [部署至 Github Page](/zh-TW/blogs/vue-puess/02-deploy-to-github.html)
 
 ## 回顧
 
