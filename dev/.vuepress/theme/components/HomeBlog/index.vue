@@ -172,6 +172,7 @@ export default defineComponent({
       flex auto
       width 0
       .abstract-wrapper {
+        margin-bottom: 1rem
         .abstract-item:last-child {
           margin-bottom: 0px;
         }
