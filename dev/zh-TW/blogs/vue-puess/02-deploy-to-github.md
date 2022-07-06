@@ -10,8 +10,8 @@ cover: /vue-press/vue-press.jpeg
 
 #### <i class="iconfont reco-other" style="color: rgb(66, 152, 245);"></i> [Github 源代碼](https://github.com/I-am-nothing/I-am-nothing.github.io)
 
-&emsp; <Fa-CaretSquareLeft color="rgb(66, 152, 245)"/> [01 快速建置](/zh-TW/blogs/vue-puess/01-quick-build)<br/>
-&emsp; <Fa-CaretSquareRight color="rgb(66, 152, 245)"/> [03 新增多國語言](/zh-TW/blogs/vue-puess/03-multiple-language)
+&emsp; <Fa-CaretSquareLeft color="rgb(66, 152, 245)"/> [01 快速建置](/zh-TW/blogs/vue-puess/01-quick-build.html)<br/>
+&emsp; <Fa-CaretSquareRight color="rgb(66, 152, 245)"/> [03 新增多國語言](/zh-TW/blogs/vue-puess/03-multiple-language.html)
 
 ## Github 
 
@@ -100,7 +100,7 @@ git push origin master
 
 第三步將目錄換成 "/docs" (原本是 /root) 等待大約1分鐘就完成了
 
-下一章： [03 新增多國語言](/zh-TW/blogs/vue-puess/03-multiple-language)
+下一章： [03 新增多國語言](/zh-TW/blogs/vue-puess/03-multiple-language.html)
 
 ## 回顧
 

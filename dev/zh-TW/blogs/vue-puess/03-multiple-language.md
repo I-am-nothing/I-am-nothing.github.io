@@ -6,13 +6,12 @@ categories:
 tags:
  - 多國語言
 cover: /vue-press/vue-press.jpeg
-publish: false
 ---
 
 #### <i class="iconfont reco-other" style="color: rgb(66, 152, 245);"></i> [Github 源代碼](https://github.com/I-am-nothing/I-am-nothing.github.io)
 
-&emsp; <Fa-CaretSquareLeft color="rgb(66, 152, 245)"/> [02 部署至 Github Page](/zh-TW/blogs/vue-puess/02-deploy-to-github)<br/>
-&emsp; <Fa-CaretSquareRight color="rgb(66, 152, 245)"/> [04 爆改程式碼注意事項](/zh-TW/blogs/vue-puess/04-exploding-modify-codes)
+&emsp; <Fa-CaretSquareLeft color="rgb(66, 152, 245)"/> [02 部署至 Github Page](/zh-TW/blogs/vue-puess/02-deploy-to-github.html)<br/>
+&emsp; <Fa-CaretSquareRight color="rgb(66, 152, 245)"/> [04 爆改程式碼注意事項](/zh-TW/blogs/vue-puess/04-exploding-modify-codes.html)
 
 ## 為何要有多國語言
 
@@ -265,7 +264,7 @@ module.exports = {
 
 因此下一章我會講爆改前的注意事項
 
-下一章：[04 爆改程式碼注意事項](/zh-TW/blogs/vue-puess/04-exploding-modify-codes)
+下一章：[04 爆改程式碼注意事項](/zh-TW/blogs/vue-puess/04-exploding-modify-codes.html)
 
 ## 回顧
 

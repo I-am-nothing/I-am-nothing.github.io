@@ -8,8 +8,8 @@ cover: /vue-press/vue-press.jpeg
 
 #### <i class="iconfont reco-other" style="color: rgb(66, 152, 245);"></i> [Github 源代碼](https://github.com/I-am-nothing/I-am-nothing.github.io)
 
-&emsp; <Fa-CaretSquareLeft color="rgb(66, 152, 245)"/> [摘要](/zh-TW/blogs/vue-puess/summary)<br/>
-&emsp; <Fa-CaretSquareRight color="rgb(66, 152, 245)"/> [02 部署至 Github Page](/zh-TW/blogs/vue-puess/02-deploy-to-github)
+&emsp; <Fa-CaretSquareLeft color="rgb(66, 152, 245)"/> [摘要](/zh-TW/blogs/vue-puess/summary.html)<br/>
+&emsp; <Fa-CaretSquareRight color="rgb(66, 152, 245)"/> [02 部署至 Github Page](/zh-TW/blogs/vue-puess/02-deploy-to-github.html)
 
 ## 主題
 
@@ -115,7 +115,7 @@ yarn dev
 ```
 
 
-下一章： [部署至 Github Page](/zh-TW/blogs/vue-puess/02-deploy-to-github)
+下一章： [部署至 Github Page](/zh-TW/blogs/vue-puess/02-deploy-to-github.html)
 
 ## 回顧
 
