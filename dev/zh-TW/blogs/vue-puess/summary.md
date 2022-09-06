@@ -6,7 +6,6 @@ categories:
 tags:
  - 概述
 cover: /vue-press/vue-press.jpeg
-sticky: 2
 ---
 
 #### <i data-v-50777274="" class="iconfont reco-other" style="color: rgb(66, 152, 245);"></i> &nbsp;[Github 源代碼](https://github.com/I-am-nothing/I-am-nothing.github.io)

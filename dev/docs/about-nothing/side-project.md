@@ -3,7 +3,9 @@ title: Nothing's Side Project
 date: 2022-06-08
 categories: 
  - About-Nothing
-publish: false
+cover: /about-nothing/side-project/01.png
+publish: true
+sticky: 1
 ---
 
 ### [MY_WEBSITE](https://i-am-nothing.github.io/)<font size="2">&nbsp;Jan 2022 - Present,&nbsp;<span style="color:#e91d63">In Development</span></font><br/>

@@ -3,7 +3,9 @@ title: Nothing 的作品集
 date: 2022-06-08
 categories: 
  - 關於 Nothing
-publish: false
+cover: /about-nothing/side-project/01.png
+publish: true
+sticky: 1
 ---
 
 ### [MY_WEBSITE](https://i-am-nothing.github.io/)<font size="2">&nbsp;Jan 2022 - 現今,&emsp;<span style="color:#e91d63">開發中</span></font><br/>

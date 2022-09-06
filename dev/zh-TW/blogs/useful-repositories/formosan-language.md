@@ -5,7 +5,7 @@ categories:
  - 實用的“庫”
 author: Splitline
 cover: /useful-repositories/formosan-language/we_are_taiwanese.png
-sticky: 1
+sticky: 2
 ---
 
 #### <i data-v-50777274="" class="iconfont reco-account" style="color: rgb(66, 152, 245);"></i> &nbsp;作者：[Splitline](https://github.com/splitline?tab=repositories)<br/><br/><i data-v-50777274="" class="iconfont reco-github" style="color: rgb(66, 152, 245);"></i> &nbsp;Github 連結 [點我](https://github.com/splitline/FormosanLanguages.h)<br/><br/><i data-v-50777274="" class="iconfont reco-copyright" style="color: rgb(66, 152, 245);"></i> &nbsp;以下內容取自這位作者

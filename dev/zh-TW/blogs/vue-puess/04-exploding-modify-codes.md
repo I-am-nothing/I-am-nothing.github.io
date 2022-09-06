@@ -9,7 +9,7 @@ cover: /vue-press/vue-press.jpeg
 #### <i class="iconfont reco-other" style="color: rgb(66, 152, 245);"></i> [Github 源代碼](https://github.com/I-am-nothing/I-am-nothing.github.io)
 
 &emsp; <Fa-CaretSquareLeft color="rgb(66, 152, 245)"/> [03 新增多國語言](/zh-TW/blogs/vue-puess/03-multiple-language.html)<br/>
-&emsp; <Fa-CaretSquareRight color="rgb(66, 152, 245)"/> [05 修正navbar顯示與連結失效問題](/zh-TW/blogs/vue-puess/05-fixing-navbar-and-invalid-link.html)
+&emsp; <Fa-CaretSquareRight color="rgb(66, 152, 245)"/> [05 修正navbar選項無法顯示與首頁顯示兩種語言問題](/zh-TW/blogs/vue-puess/05-fixing-navbar-and-show-both-language.html)
 
 ## Explosion!!!
 
@@ -21,7 +21,7 @@ cover: /vue-press/vue-press.jpeg
 
 ::: danger
 
-雖然我們可以在這裡只接爆改程式碼
+雖然我們可以在這裡直接爆改程式碼
 
 但只要需要安裝其他插件進行 "yarn add module" 時
 
@@ -109,7 +109,7 @@ $codeBgColor = #282c34              // 程式碼區塊背景色
 $backgroundColor = #ffffff          // 懸浮區塊背景色
 ```
 
-好，下一章：[05 修正navbar顯示與連結失效問題](/zh-TW/blogs/vue-puess/05-fixing-navbar-and-invalid-link.html)
+好，下一章：[05 修正navbar選項無法顯示與首頁顯示兩種語言問題](/zh-TW/blogs/vue-puess/05-fixing-navbar-and-show-both-language.html)
 
 ## 回顧
 
