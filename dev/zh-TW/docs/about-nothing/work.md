@@ -6,4 +6,9 @@ categories:
 publish: false
 ---
 
-我還沒有工作經驗 ww
+## 接案
+
+### [nothing-electronic-menu](https://nothing-electronic-menu.web.app/store/WkSNZeGHsjEUNuXE8BEK)<font size="2">&nbsp;Aug 2022 - 現今,&emsp;<span style="color:#e91d63">開發中</span></font><br/>
+<span style="color:#888888">Vue 3 / TypeScript / JavaScript / Firebase </span></br>
+* &nbsp;&nbsp;使用 [Firebase](https://firebase.google.com/) 快速架設資料庫<br/>
+* &nbsp;&nbsp;使用 [Vue 3](https://vuejs.org/) 架設網站
