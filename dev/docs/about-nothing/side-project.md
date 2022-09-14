@@ -24,12 +24,6 @@ sticky: 1
 * &nbsp;&nbsp;Design a Mobile application that solves personal property records and property planning<br/>
 * &nbsp;&nbsp;Expected to complete its deployment to the Play Store and the App Store before the middle of the first year
 
-### [Taiwan_Transportation](https://github.com/I-am-nothing/Taiwan_Transportation)<font size="2">&nbsp;May 2022 - Present,&nbsp;<span style="color:#e91d63">In Development</span></font><br/>
-<span style="color:#888888">Flutter/Google-Ads</span><br/>
-* &nbsp;&nbsp;According to some apps in the App Store and Play Store. I feel those apps are not convenient. So I want to make it myself<br/>
-* &nbsp;&nbsp;More visual and accurate display of bus, train, HSR, and MRT arrival times <br/>
-* &nbsp;&nbsp;Expected to complete its deployment to the Play Store and the App Store before school starts
-
 ### [Flutter_notes](https://github.com/I-am-nothing/Flutter_notes)<font size="2">&nbsp;May 2022 - Jun 2022</font><br/>
 <span style="color:#888888">Flutter/Firebase</span><br/>
 * &nbsp;&nbsp;This is a record of self-learning, from 0 to 1 process

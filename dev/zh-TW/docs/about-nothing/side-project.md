@@ -24,12 +24,6 @@ sticky: 1
 * &nbsp;&nbsp;設計一個手機應用程式解決個人的財物紀錄以及對財物規劃<br/>
 * &nbsp;&nbsp;預計大一期中前完成上架
 
-### [Taiwan_Transportation](https://github.com/I-am-nothing/Taiwan_Transportation)<font size="2">&nbsp;May 2022 - 現今,&emsp;<span style="color:#e91d63">開發中</span></font><br/>
-<span style="color:#888888">Flutter/Google-Ads</span><br/>
-* &nbsp;&nbsp;根據許多類似已經在 App Store 和 Play store 的應用程式，我認為這些應用程式不夠方便，因此我要自己做一個<br/>
-* &nbsp;&nbsp;更加的視覺化且更準確的計算與顯示公車、火車、高鐵、捷運抵達時間<br/>
-* &nbsp;&nbsp;預計開學前完成上架
-
 ### [Flutter_notes](https://github.com/I-am-nothing/Flutter_notes)<font size="2">&nbsp;May 2022 - Jun 2022</font><br/>
 <span style="color:#888888">Flutter/Firebase</span><br/>
 * &nbsp;&nbsp;這是自我學習的紀錄，從0到1過程
